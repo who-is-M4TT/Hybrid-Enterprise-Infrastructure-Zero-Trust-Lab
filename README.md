@@ -37,6 +37,9 @@ Audit Logging: Centralized Windows Event forwarding and Azure Sign-in log monito
 📸 Network Diagram
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 🚀 Key Learning Outcomes
 Hybrid Sync: Successfully configured the Entra ID Connect bridge, solving common UPN suffix and synchronization errors.
 
