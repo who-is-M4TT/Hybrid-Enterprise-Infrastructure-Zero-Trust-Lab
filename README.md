@@ -180,6 +180,25 @@ Twingate
 
 ---
 
+## 📸 Implementation Proof
+
+### Proxmox Virtualization Host
+Core infrastructure services running on Proxmox.
+
+![Proxmox VM List](screenshots/proxmox-vms.png)
+
+### Active Directory Domain Structure
+Domain users, groups, and organizational units managed through Active Directory.
+
+![Active Directory](screenshots/active-directory-domain.png)
+
+### pfSense Firewall Rules
+Firewall rules enforcing network boundary protection and deny-by-default inbound access.
+
+![pfSense Firewall](screenshots/pfsense-firewall-rules.png)
+
+---
+
 # 👤 Author
 
 **Thit Lwin Oo**
