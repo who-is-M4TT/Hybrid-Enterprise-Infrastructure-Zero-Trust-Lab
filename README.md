@@ -191,11 +191,6 @@ Domain users, groups, and organizational units managed through Active Directory.
 
 ![Active Directory](Screenshots/active-directory-domain.png)
 
-### pfSense Firewall Rules
-Firewall rules enforcing network boundary protection and deny-by-default inbound access.
-
-![pfSense Firewall](Screenshots/pfsense-firewall-rules.png)
-
 ---
 
 # 🎯 Project Goals
