@@ -185,12 +185,12 @@ Twingate
 ### Proxmox Virtualization Host
 Core infrastructure services running on Proxmox.
 
-![Proxmox VM List](screenshots/proxmox-vms.png)
+![Proxmox VM List](Screenshots/proxmox-vm-infrastructure.png)
 
 ### Active Directory Domain Structure
 Domain users, groups, and organizational units managed through Active Directory.
 
-![Active Directory](screenshots/active-directory-domain.png)
+![Active Directory](Screenshots/active-directory-domain.png)
 
 ### pfSense Firewall Rules
 Firewall rules enforcing network boundary protection and deny-by-default inbound access.
