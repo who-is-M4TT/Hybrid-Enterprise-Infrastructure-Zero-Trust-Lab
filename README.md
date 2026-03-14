@@ -4,7 +4,7 @@
 ![Infrastructure](https://img.shields.io/badge/infrastructure-hybrid-green)
 ![Security](https://img.shields.io/badge/security-defense--in--depth-red)
 
-An enterprise-style hybrid infrastructure lab designed to simulate a **small business IT environment**.  
+An enterprise-grade hybrid infrastructure lab designed to simulate a **small business IT environment**.  
 This project demonstrates practical experience in **systems administration, networking, identity management, and security architecture** by integrating on-premises infrastructure with cloud identity services.
 
 The environment focuses on implementing modern enterprise practices such as **centralized identity governance, defense-in-depth security, and controlled remote access**.
@@ -13,8 +13,7 @@ The environment focuses on implementing modern enterprise practices such as **ce
 
 # 🌐 Architecture Overview
 
-The infrastructure is hosted on a **Dell PowerEdge R720** running **Proxmox VE** as the virtualization platform. Core infrastructure services are deployed as virtual machines to simulate a real enterprise environment.
-
+The infrastructure is hosted on a **Dell PowerEdge R720** running **Proxmox VE** as the virtualization platform. Core infrastructure services are deployed as virtual machines to replicate a real-world enterprise environment.
 The environment integrates:
 
 - On-prem infrastructure services
@@ -64,7 +63,7 @@ This architecture enables:
 - conditional access enforcement
 - multi-factor authentication protection
 
-Domain authentication remains the primary authority for internal infrastructure services.
+Active Directory remains the primary authentication authority for internal infrastructure services.
 
 ---
 
@@ -124,7 +123,7 @@ Protection mechanisms include:
 
 - **Proxmox virtual machine backups**
 - **TrueNAS ZFS snapshots**
-- recovery testing for system restoration
+- periodic recovery testing to validate system restoration procedures
 
 This design allows recovery of both full virtual machines and individual datasets.
 
@@ -195,7 +194,19 @@ Domain users, groups, and organizational units managed through Active Directory.
 ### pfSense Firewall Rules
 Firewall rules enforcing network boundary protection and deny-by-default inbound access.
 
-![pfSense Firewall](screenshots/pfsense-firewall-rules.png)
+![pfSense Firewall](Screenshots/pfsense-firewall-rules.png)
+
+---
+
+# 🎯 Project Goals
+
+The objective of this lab was to simulate the design and operation of a small enterprise infrastructure environment. Key goals included:
+
+• Implementing hybrid identity between on-premises Active Directory and Microsoft Entra ID  
+• Designing a secure network boundary using pfSense  
+• Deploying centralized storage with directory-based access control  
+• Enforcing modern security controls such as MFA and RBAC  
+• Practicing infrastructure documentation and architectural design
 
 ---
 
